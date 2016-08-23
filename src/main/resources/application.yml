@@ -1,0 +1,5 @@
+sftpconfig:
+    host: localhost
+    port: 3333
+    user: user
+    
