@@ -50,7 +50,7 @@ public class IntegrationSampleApplication {
 
 	public SftpRemoteFileTemplate sftpRemoteFileTemplate() {
 		SftpRemoteFileTemplate ts = new SftpRemoteFileTemplate(sftpSessionFactory());
-		ts.ssetRemoteDirectoryExpression("/toinbound");
+		ts.setRemoteDirectoryExpression(new S"/toinbound");
 
 	}
 
