@@ -10,6 +10,7 @@ public class Sftpconfig {
 	private String host;
 	private int port;
 	private String user;
+	private String password;
 
 	public String getHost() {
 		return host;
@@ -33,6 +34,14 @@ public class Sftpconfig {
 
 	public void setUser(String user) {
 		this.user = user;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }

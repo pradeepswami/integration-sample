@@ -1,5 +1,5 @@
 sftpconfig:
     host: localhost
-    port: 3333
+    port: 2222
     user: user
-    
+    password: password123
